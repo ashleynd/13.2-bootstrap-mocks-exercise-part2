@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap Basics! Part 2</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+</head>
+
+<body>
+
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">LOGO</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Messages</a>
+        </li>
+      </ul>
+      <button class="badge badge-success">12
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div class="container m-5">
+  <h1 class="display-5">Dashboard:</h1>
+  <table class="ui celled table">
+    <thead>
+      <tr><th>Name</th>
+      <th>Team</th>
+      <th>All-Star</th>
+      <th>Remove</th>
+    </tr></thead>
+    <tbody>
+      <tr>
+        <td data-label="Name">Steph</td>
+        <td data-label="Team">Warriors</td>
+        <td data-label="All-Star">Yes</td>
+        <td data-label="Remove"><i class="fas fa-trash-alt text-danger"></i></td>
+      </tr>
+      <tr>
+        <td data-label="Name">Lebron</td>
+        <td data-label="Team">Cavaliers</td>
+        <td data-label="All-Star">Yes</td>
+        <td data-label="Remove"><i class="fas fa-trash-alt text-danger"></i></td>
+      </tr>
+      <tr>
+        <td data-label="Name">Dwayne</td>
+        <td data-label="Team">Heat</td>
+        <td data-label="All-Star">Yes</td>
+        <td data-label="Remove"><i class="fas fa-trash-alt text-danger"></i></td>
+      </tr>
+      <tr>
+        <td data-label="Name">Kobe</td>
+        <td data-label="Team">Lakers</td>
+        <td data-label="All-Star">Yes <span class="badge badge-warning ">Last</span></td>
+        <td data-label="Remove"><i class="fas fa-trash-alt text-danger"></i></td>
+      </tr>
+      <tr>
+        <td data-label="Name">Isaiah</td>
+        <td data-label="Team">Celtics</td>
+        <td data-label="All-Star">Yes <span class="badge badge-success">First</span></td>
+        <td data-label="Remove"><i class="fas fa-trash-alt text-danger"></i></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="container">
+  <h3>Todos:</h3>
+    <div class="alert alert-success" role="alert">
+      Feel good about Bootstrap
+    </div>
+    <div class="alert alert-info" role="alert">
+      Feel informed about Bootstrap
+    </div>
+    <div class="alert alert-warning" role="alert">
+      Feel warned about Bootstrap
+    </div>
+    <div class="alert alert-warning" role="alert">
+      Maybe I should read the docs
+    </div>
+    <div class="alert alert-danger" role="alert">
+      Danger Zone
+    </div>
+    <div class="alert alert-danger" role="alert">
+      You should really read the docs...
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
